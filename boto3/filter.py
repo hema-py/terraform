@@ -2,8 +2,8 @@ import boto3
 
 client =boto3.client('ec2',
         region_name = 'us-east-1',
-        aws_access_key_id = 'AKIATQ4ZV53Q5M3UK3MX',
-        aws_secret_access_key = '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')
+        aws_access_key_id = '',
+        aws_secret_access_key = '')
 
 # Create boto3 ec2 resource
 ec2 = boto3.resource('ec2')
